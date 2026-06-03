@@ -1,1 +1,2 @@
 #lubię placki
+#i siebie
