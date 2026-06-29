@@ -1,6 +1,6 @@
 
-public class sciagacz {
-    public static void sciaga(String[] args) {
+public class sciagarka {
+    public static void sciagacz(String[] args) {
     
         System.out.println("-----Printy-----");
         System.out.println("Hello world");
