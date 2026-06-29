@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Wiekomierz {
+    public static void wiekomierz(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Scanner scann = new Scanner(System.in);
+        System.out.print("Podaj rok urodzenia: ");
+        int rok = scanner.nextInt();
+        int lata_po_urodzeniu_chrystusa = 2026;
+        if (rok > lata_po_urodzeniu_chrystusa) {
+            System.out.print("Jesteś bogiem z przyszłości!!!!");
+        }
+        else {
+            int wiek = lata_po_urodzeniu_chrystusa - rok;
+
+            System.out.print("Masz " + wiek + " lat.");
+        scanner.close();
+
+        }
+        scann.close();
+
+
+    }
+}
+ 

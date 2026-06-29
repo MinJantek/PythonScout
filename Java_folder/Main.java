@@ -1,28 +1,17 @@
-import java.util.Scanner;
 
 public class Main {
+    public static void kocham() {
+        System.out.println("kocham");
+    }
+    public static int odejmij(int x,int y) {
+        return x - y;
+    }
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Scanner scann = new Scanner(System.in);
-        System.out.print("Podaj rok urodzenia: ");
-        int rok = scanner.nextInt();
-        int lata_po_urodzeniu_chrystusa = 2026;
-        if (rok > lata_po_urodzeniu_chrystusa) {
-            System.out.print("Jesteś bogiem z przyszłości!!!!");
-        }
-        else {
-            int wiek = lata_po_urodzeniu_chrystusa - rok;
-
-            System.out.print("Masz " + wiek + " lat.");
-        scanner.close();
-
-
-            System.out.println("Masz " + wiek + " lat.");
-
-        }
-        scann.close();
-
+        int result = funkcje.dodaj(1,2);
+        System.out.println(result);
+        System.out.println("Mama kocham mama");
+        System.out.println(odejmij(3,2));
+        kocham();
 
     }
 }
- 
