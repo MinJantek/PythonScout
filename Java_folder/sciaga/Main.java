@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
     
@@ -80,5 +81,14 @@ public class Main {
             System.out.println(a);
             a++; // zwiększanie a o 1, aby uniknąć nieskończonej pętli
         } while (a < 10);
+        System.out.println("----------------------------------");
+        a = 2;
+        // funkcje & klasy
+        int abc = 2;
+        System.out.println(abc);
+
+
+
+
     }   
 }
