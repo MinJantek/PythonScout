@@ -1,6 +1,6 @@
 
 public class sciagarka {
-    public static void sciagacz(String[] args) {
+    public static void sciaga(String[] args) {
     
         System.out.println("-----Printy-----");
         System.out.println("Hello world");
@@ -81,8 +81,6 @@ public class sciagarka {
             System.out.println(a);
             a++; // zwiększanie a o 1, aby uniknąć nieskończonej pętli
         } while (a < 10);
-
-        System.out.println("------------------------------------------------");
 
     }   
 }
